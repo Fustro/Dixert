@@ -1,0 +1,58 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// Place all the styles related to the pagina controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgba(35, 63, 87, 0.92);
+}
+div{
+  margin: 0;
+}
+h4{
+  color: white;
+}
+.unto{
+  text-align: center;
+  height: 650px;
+}
+.ctext{
+  background-color: #f9f7eb;
+  height: 100%;
+  text-align: left;
+}
+.cuadro_blanco{
+  height: 90%;
+  width: 90%;
+  background-color: white;
+  display: none;
+}
+
+.cuadre{
+  background-color:  #25637a;
+  height: 91%;
+  padding: 30px;
+  color: white;
+}
+.cuadra{
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  background-color: rgba(#193e59, 0.92);
+  float: left;
+  width: 48%;
+  height: 100%;
+}
+@media (max-width: 1000px){
+  .cuadra{
+    width: 95%;
+  }
+  .cuadre{
+    width: 100%;
+  }
+}
